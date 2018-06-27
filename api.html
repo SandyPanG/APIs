@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:" content="">
+    <title></title>
+  </head>
+  <body>
+    <form>
+      <input type="text" id="search">
+      <button type="button" id="search-button">Buscar</button>
+    </form>
+
+    <div id="characters-container"></div>
+
+    <div id="template-character" style:"display:none">
+      <div>
+        <h2> <a href="{{url}}">{{name}}</a></h2>
+        <p>{{description}}</p>
+        <img style="width:100%" src="{{profile}}" alt="">
+      </div>
+    </div>
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="api.js">
+
+    </script>
+  </body>
+</html>
